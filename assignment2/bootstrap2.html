@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!--  Task 1: Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">vk store</a>
+
+        <!-- Toggle button (mobile) -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#" >HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="D:\HTML\html\ABOUT.HTML">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="D:\HTML\html\contect.html">CONTECT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--  Task 2: Cards -->
+<div class="container mt-4">
+    <div class="row">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="D:\HTML\image\RX100.jpg" class="card-img-top image-fixed" title="R15">
+                <div class="card-body">
+                    <h5 class="card-title">Service 1</h5>
+                    <p class="card-text">Simple description here.</p>
+                    <button class="btn btn-primary">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="D:\HTML\image\Royal-Enfield.jpg" class="card-img-top image-fixed" title="Royal-Enfield">
+                <div class="card-body">
+                    <h5 class="card-title">Service 2</h5>
+                    <p class="card-text">Simple description here.</p>
+                    <a href="service1.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="D:\HTML\image\RX100.jpg" class="card-img-top image-fixed" title="RX100">
+                <div class="card-body">
+                    <h5 class="card-title">Service 3</h5>
+                    <p class="card-text">Simple description here.</p>
+                    <button class="btn btn-warning">Read More</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--  Task 3: Buttons + Alert -->
+<div class="container mt-4">
+
+    <!-- Buttons -->
+    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-outline-success">secondary</button>
+    <button class="btn btn-danger">third</button>
+
+    <!-- Alert -->
+    <div class="alert alert-success alert-dismissible fade show mt-3">
+    Message send successfully...
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+</div>
+
+<!--  Task 4: Contact Form -->
+<div class="container mt-4 mb-5">
+    <h3>Contact Us</h3>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder="enter your name" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="enter your email" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" placeholder="Type your Message"></textarea>
+        </div>
+
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
